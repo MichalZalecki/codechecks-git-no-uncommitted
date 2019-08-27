@@ -1,17 +1,21 @@
 {
   "name": "codechecks-git-no-uncommitted",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1",
   "description": "Validate module dependencies against predefined or your own rules",
   "main": "lib/index.js",
   "repository": "https://github.com/MichalZalecki/codechecks-git-no-uncommitted",
   "author": "Michal Zalecki <michal@michalzalecki.com>",
   "license": "MIT",
   "scripts": {
-    "build": "rm -rf lib && tsc"
+    "build": "rm -rf lib && tsc",
+    "test": "jest src"
   },
   "dependencies": {},
   "devDependencies": {
+    "@types/jest": "^24.0.18",
     "@types/node": "^12.7.2",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   },
   "peerDependencies": {
