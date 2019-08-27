@@ -10,3 +10,8 @@ Add to your `codechecks.yml` file:
 checks:
   - name: codechecks-git-no-uncommitted
 ```
+
+## Contributors
+
+* [MichalZalecki](https://github.com/MichalZalecki)
+* [ziolekjj](https://github.com/ziolekjj)
