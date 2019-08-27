@@ -1,0 +1,6 @@
+src
+lib/*.spec.*
+.prettierrc
+jest.config.js
+tsconfig.json
+yarn.lock
